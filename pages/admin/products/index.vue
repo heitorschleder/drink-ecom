@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+// todo: adicionar imagem, subir arquivo de imagem, 
+
 definePageMeta({
   middleware: 'admin'
 })

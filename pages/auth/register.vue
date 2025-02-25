@@ -1,3 +1,20 @@
+<script setup lang="ts">
+// caixa de termos
+// data de nascimento no registro para verificação do back
+
+const name = ref('')
+const email = ref('')
+const password = ref('')
+
+const handleSubmit = () => {
+  console.log('Registration attempt:', {
+    name: name.value,
+    email: email.value,
+    password: password.value
+  })
+}
+</script>
+
 <template>
   <div class="max-w-md mx-auto">
     <h1 class="text-3xl font-bold text-gray-900 mb-8 text-center">
@@ -63,17 +80,3 @@
   </div>
 </template>
 
-<script setup lang="ts">
-const name = ref('')
-const email = ref('')
-const password = ref('')
-
-const handleSubmit = () => {
-  // TODO: Implement registration logic
-  console.log('Registration attempt:', {
-    name: name.value,
-    email: email.value,
-    password: password.value
-  })
-}
-</script>

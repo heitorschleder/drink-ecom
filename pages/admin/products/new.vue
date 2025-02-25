@@ -4,6 +4,14 @@ definePageMeta({
   middleware: 'admin'
 })
 
+// criar uma página para EDIT
+
+// subir imagem (em url pq o dtr chorou)
+// adicionar marca
+// mudar categoria para destilado fermentado etc
+// categoria agora sera subcategoria que é whiskey, beer etc
+
+
 // categoria exemplo
 const categories = [
   'Whiskey',

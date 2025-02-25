@@ -1,3 +1,8 @@
+<script setup lang="ts">
+// criar exemplo de produtos pra melhorar visualização
+// essa tela ta uma porra
+
+</script>
 <template>
   <div>
     <div class="flex justify-between items-center mb-8">
