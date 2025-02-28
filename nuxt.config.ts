@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     'nuxt-icon',
     '@nuxtjs/google-fonts'
   ],
+  pages: true,
   googleFonts: {
     families: {
       'Inter': [400, 500, 600, 700],
@@ -16,7 +17,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'E-commerce',
+      title: 'E-Drinks',
       meta: [
         { name: 'description', content: 'Modern e-commerce platform' }
       ],
